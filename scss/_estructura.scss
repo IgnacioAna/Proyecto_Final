@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, main {
+    background-color: black;
+    
+}
+
+footer {
+    background-color: $color_secundario;
+   
+}
+
+.borderr {
+    border: $color_borde;
+}
+
+.borderr1 {
+    $color_borde: 4px solid white;
+    border: $color_borde;
+}
+
+.nav-color {
+    background-color: $nav_color;
+}

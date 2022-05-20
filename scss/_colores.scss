@@ -1,0 +1,17 @@
+$color_secundario: grey;
+$color_borde: 4px solid red;
+$nav_color: rgb(210, 34, 34);
+
+$color: black;
+@each $color in red, black, white, grey {
+    .#{$color} {
+        color: $color;
+    }
+}
+
+$lista: red, black, white, grey, lightgrey;
+@each $color in $lista {
+    .#{$color} {
+        color: $color;
+    }
+}

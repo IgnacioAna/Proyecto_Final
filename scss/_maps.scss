@@ -1,0 +1,21 @@
+$color_fondo: (index: black, sandwichs: rgb(28, 25, 25), quienes: rgb(37, 32, 32), horarios: rgb(26, 25, 25), contacto: rgb(48, 40, 40));
+$color_letras: (color1: black, color2: white, color3: red, color4: grey);
+$medidas: (ancho1: 540px, ancho2: 440px, ancho3: 400px );
+
+@each $clave, $valor in $color_fondo {
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+@each $clave2, $valor2 in $color_letras {
+    .#{$clave2} {
+        color: $valor2;
+    }
+}
+
+@each $clave3, $valor3 in $medidas {
+    .#{$clave3} {
+        width: $valor3;
+    }
+}
