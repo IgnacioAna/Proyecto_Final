@@ -47,12 +47,14 @@ footer {
 
 .font {
   font-size: large;
-  font-weight: bold;
   color: white;
   font-style: italic; }
 
 .titulo {
-  text-decoration: overline; }
+  text-decoration: overline;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 5px; }
 
 .btn-index {
   background-color: black; }
@@ -76,7 +78,7 @@ footer {
   color: white; }
 
 .color3 {
-  color: red; }
+  color: #e60808; }
 
 .color4 {
   color: grey; }
@@ -88,4 +90,4 @@ footer {
   width: 440px; }
 
 .ancho3 {
-  width: 400px; }
+  width: 350px; }
