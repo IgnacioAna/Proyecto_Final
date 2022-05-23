@@ -48,7 +48,8 @@ footer {
 .font {
   font-size: large;
   color: white;
-  font-style: italic; }
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .titulo {
   text-decoration: overline;
@@ -90,4 +91,4 @@ footer {
   width: 440px; }
 
 .ancho3 {
-  width: 350px; }
+  width: 300px; }
